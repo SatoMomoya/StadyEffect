@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Lesson06/Scenes/Lesson06_FX_AuraTornado_final.unity
+- path: Assets/Scenes/PillarEffectScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
