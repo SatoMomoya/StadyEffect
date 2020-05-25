@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Lesson07/Scenes/Lesson07_FX_Lightning_final.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
