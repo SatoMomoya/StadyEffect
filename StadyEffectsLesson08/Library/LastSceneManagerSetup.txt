@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SlashingEffectScene.unity
+- path: Assets/Lesson08/MyScenes/SlashingEffectSceneV2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

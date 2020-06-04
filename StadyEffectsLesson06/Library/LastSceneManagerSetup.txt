@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/PillarEffectScene.unity
-  isLoaded: 1
-  isActive: 1
+- path: Assets/Lesson07/MyScenes/BeameffectScene.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
