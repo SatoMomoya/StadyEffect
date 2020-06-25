@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: M_lesson07_Beam02_final
   m_Shader: {fileID: 4800000, guid: 15f3bfee2d8becf4db160119f9925ae8, type: 3}
   m_ShaderKeywords: 
@@ -19,6 +20,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_53DA1655:
+        m_Texture: {fileID: 2800000, guid: a5cbd693f8fd06b409e8144a9983533e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8B535813:
         m_Texture: {fileID: 2800000, guid: a5cbd693f8fd06b409e8144a9983533e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -91,10 +96,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_10D53BD1: 1.96
     - Vector1_20A100BF: 1
     - Vector1_22FFDE98: 65
     - Vector1_4A3238F9: 0.86
     - Vector1_52755169: 0
+    - Vector1_828DA618: 1
+    - Vector1_CDDFF01B: 1
     - Vector1_D793BD4A: 0
     - _AlphaClip: 0
     - _Blend: 0

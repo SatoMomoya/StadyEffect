@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.0009526634, g: 0.0000074843815, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.28085276, g: 0.36602777, b: 0.49832976, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -672,6 +672,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 165006043}
     m_Modifications:
+    - target: {fileID: 5270011160575982073, guid: 803b66bfed76859419c4949ba17137d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5270011161484498846, guid: 803b66bfed76859419c4949ba17137d1,
         type: 3}
       propertyPath: m_Name
@@ -730,6 +735,11 @@ PrefabInstance:
     - target: {fileID: 5270011161484498847, guid: 803b66bfed76859419c4949ba17137d1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270011161633528420, guid: 803b66bfed76859419c4949ba17137d1,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -854,11 +864,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 513952051}
     m_Modifications:
+    - target: {fileID: 1093069976667672050, guid: 48f2f0c1709b2f841a3a17a3835e0e48,
+        type: 3}
+      propertyPath: cullingMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4012378720370109159, guid: 48f2f0c1709b2f841a3a17a3835e0e48,
         type: 3}
       propertyPath: m_Name
       value: FX_Lightning
       objectReference: {fileID: 0}
+    - target: {fileID: 5304982423234250119, guid: 48f2f0c1709b2f841a3a17a3835e0e48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 13c45ab6a6ed07448ab8f3ab180b167c, type: 2}
+    - target: {fileID: 5304982423234250119, guid: 48f2f0c1709b2f841a3a17a3835e0e48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 13c45ab6a6ed07448ab8f3ab180b167c, type: 2}
     - target: {fileID: 8546048472176514316, guid: 48f2f0c1709b2f841a3a17a3835e0e48,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -913,6 +938,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8581815226303057316, guid: 48f2f0c1709b2f841a3a17a3835e0e48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5880b6bb4d019714e94efa6ced7db764, type: 2}
+    - target: {fileID: 8581815226303057316, guid: 48f2f0c1709b2f841a3a17a3835e0e48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5880b6bb4d019714e94efa6ced7db764, type: 2}
+    - target: {fileID: 8581815226303057316, guid: 48f2f0c1709b2f841a3a17a3835e0e48,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48f2f0c1709b2f841a3a17a3835e0e48, type: 3}
@@ -1604,6 +1644,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FX_Guard
       objectReference: {fileID: 0}
+    - target: {fileID: 7719816601046366047, guid: 3f8b99fb58b459142b0159a265a14d44,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f8b99fb58b459142b0159a265a14d44, type: 3}
 --- !u!4 &2105270784 stripped
@@ -1697,10 +1742,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138677391}
-  m_LocalRotation: {x: -0.4101953, y: 0.040717255, z: 0.47697434, w: 0.77625865}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.24, y: 3, z: 4.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -42.507004, y: -26.427002, z: 73.573006}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
